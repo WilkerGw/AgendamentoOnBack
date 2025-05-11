@@ -5,7 +5,7 @@ require('dotenv').config();
 
 const app = express();
 app.use(cors({
-  origin: 'https://agendamento-on-front.vercel.app', // domínio do seu frontend
+  origin: 'https://agendamento-on-front.vercel.app/agendamento', // domínio do seu frontend
   methods: ['GET', 'POST', 'PUT', 'DELETE'],          // métodos permitidos
   credentials: true                                    // se estiver usando cookies/autenticação
 }));
